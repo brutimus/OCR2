@@ -73,94 +73,9 @@ html {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-    /*padding-top: 50px;*/
-    max-width: 1000px;
-    margin: 0 auto;
-}
 
-.header .flag, .navbar-brand .flag {
-    background: url('../img/flag.svg') no-repeat;
-    background-size: contain;
-}
-.header .flag {
-    width: 225px;
-    height: 50px;
-    margin: 10px;
-}
-.navbar-brand {
-    width: 125px;
-    padding: 0;
-    margin: 5px !important;
-    overflow: hidden;
-    -webkit-transition: width 500ms;
-}
-.navbar-brand .flag {
-    width: 112px;
-    height: 25px;
-}
-#sidebar li a {
-    display: block;
-    padding: 0;
-    color: #333;
-}
-#sidebar li:hover {
-    background-color: #f8f8f8;
-}
-#sidebar li.active > a {
-    /*color: black;*/
-    /*text-shadow: 0 -1px 0 #3071a9;*/
-}
-#sidebar li.active > a:hover {
-    background-color: transparent;
-}
-#sidebar .list-group {
-    font-size: 18px;
-    line-height: 18px;
-}
-#sidebar .list-group.nested {
-    font-size: 16px;
-    line-height: 16px;
-    margin-top: 8px;
-    margin-bottom: 0;
-    border: 0;
-    box-shadow: none;
-    overflow: hidden;
-    -webkit-transition: height .3s, margin-top .3s;
-}
-#sidebar .list-group-item:not(.active) .list-group.nested {
-    height: 0px !important;
-    margin-top: 0px;
-}
-#sidebar .list-group-item {
-    /*border: 0;*/
-}
-#sidebar .list-group-item.active {
-    text-shadow: none;
-}
-#sidebar .list-group-item:first-child {
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-top: 0;
-}
 
-#sidebar .list-group-item:last-child {
-  margin-bottom: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-#sidebar .nested .list-group-item {
-    /*border-left: 1px solid white;*/
-    /*border-right: 1px solid white;*/
-    padding: 4px 22px;
-    border: 0;
-}
-#sidebar .nested .list-group-item:first-child {
-    /*border-top: 1px solid white;*/
-}
-#sidebar .nested .list-group-item:last-child {
-    /*border-bottom: 1px solid white;*/
-}
+
 
 /* ==========================================================================
    Helper classes
