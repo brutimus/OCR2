@@ -12,9 +12,11 @@ requirejs.config({
 });
 
 require(["jquery", "jquery.bootstrap", "less"], function($) {
-    // $('.navbar,#sidebar').affix({
-    //     offset: {
-    //         top: 70
-    //     }
-    // });
+    $('#nav-btn').click(function(event) {
+        if ($('body').hasClass('nav-open')) {
+            $('body').removeClass('nav-open');
+        } else {
+            $('body').addClass('nav-open');
+        };
+    });
 });
