@@ -288,11 +288,41 @@ span.overline {
             .story-lead {
                 padding-left: 10px;
                 h1 {font-size: 38px;}
+                img {margin-bottom: 10px;}
             }
 
             .story {
                 padding-left: 10px;
                 h1 {font-size: 28px;}
+            }
+
+            .story-rail-wrapper {
+                padding: 0 0 0 @spacing;
+
+                .story-rail {
+                    padding: 0 0 0 @spacing;
+                    border-left: 1px solid @gray-light;
+
+                    .story {
+                        overflow: auto;
+                        margin: 0 0 @spacing 0;
+                        padding: 0 0 @spacing 0;
+                        border-bottom: 1px solid @gray-light;
+                        &:last-child {
+                            border: none;
+                            margin: 0;
+                        }
+
+                        span.overline {
+                            font-size: @font-size-smaller;
+                        }
+
+                        h1 {
+                            font-size: 20px;
+                            margin: 0;
+                        }
+                    }
+                }
             }
     }
 

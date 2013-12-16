@@ -6140,11 +6140,38 @@ span.overline {
 #content .wrapper .story-lead h1 {
   font-size: 38px;
 }
+#content .wrapper .story-lead img {
+  margin-bottom: 10px;
+}
 #content .wrapper .story {
   padding-left: 10px;
 }
 #content .wrapper .story h1 {
   font-size: 28px;
+}
+#content .wrapper .story-rail-wrapper {
+  padding: 0 0 0 25px;
+}
+#content .wrapper .story-rail-wrapper .story-rail {
+  padding: 0 0 0 25px;
+  border-left: 1px solid #dddddd;
+}
+#content .wrapper .story-rail-wrapper .story-rail .story {
+  overflow: auto;
+  margin: 0 0 25px 0;
+  padding: 0 0 25px 0;
+  border-bottom: 1px solid #dddddd;
+}
+#content .wrapper .story-rail-wrapper .story-rail .story:last-child {
+  border: none;
+  margin: 0;
+}
+#content .wrapper .story-rail-wrapper .story-rail .story span.overline {
+  font-size: 12px;
+}
+#content .wrapper .story-rail-wrapper .story-rail .story h1 {
+  font-size: 20px;
+  margin: 0;
 }
 #content .ad-well {
   background-color: #ff9a92;
